@@ -1,0 +1,286 @@
+:root{
+  --primary-color: #660099;
+  --secondary-color: #1b1b1b;
+  --bg-color:#e26365;
+}
+
+h1{
+  color: var(--primary-color);
+}
+
+header{
+  background-color: var(--secondary-color);
+  height: 60px;
+  padding: 5px 0;
+
+}
+
+.logo , .nav-bar{
+  background-color: var(--primary-color);
+  height: 50px;
+  padding: 5px;
+}
+
+.nav-links , .get-started{
+  background-color: var(--secondary-color);
+  height: 40px;
+}
+
+.banner-section{
+  background-color: var(--primary-color);
+  color: #e26365;
+  height: calc(100vh - 60px);
+  padding: 150px 0;
+}
+
+.banner-content{
+  background-color: var(--secondary-color);
+  width: 600px;
+  height: 300px;
+}
+
+
+.client-logo-section{
+  background-color: var(--secondary-color);
+  height: 220px;
+  padding: 50px 0;
+}
+
+.client-logo-box{
+  background-color: var(--primary-color);
+  height: 50px;
+}
+
+.client-dots{
+  background-color: var(--primary-color);
+  height: 50px;
+  margin-top: 20px;
+}
+
+.about-us-section{
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.about-left , .about-right{
+  background-color: var(--secondary-color);
+  height: 400px;
+  
+}
+
+.about-right{
+  padding: 30px;
+}
+
+.about-box{
+  background-color: var(--primary-color);
+  height: 160px;
+}
+
+
+
+.dashboard-section{
+  background-color: var(--secondary-color);
+  height: 300px;
+  padding: 100px 0;
+}
+
+.dash-box{
+  background-color: var(--primary-color);
+  height: 100px;
+}
+
+.why-us-section{
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding: 40px 0;
+}
+
+.why-us-box{
+  background-color: var(--secondary-color);
+  height: 100px;
+}
+
+.why-us-left , .why-us-right{
+  background-color: var(--secondary-color);
+  height: 350px;
+  margin-top: 20px;
+}
+
+.services-section{
+  background-color: var(--secondary-color);
+  padding: 50px 0;
+}
+
+.services-title{
+  background-color: var(--primary-color);
+  height: 150px;
+}
+
+.services-box{
+  background-color: var(--primary-color);
+  height: 150px;
+  margin-top: 20px;
+}
+
+
+
+
+.portfolio-section{
+  background-color: var(--primary-color);
+  padding: 50px 0;
+}
+
+.portfolio-title{
+  background-color: var(--secondary-color);
+  height: 200px;
+}
+
+.portfolio-box{
+  background-color: var(--secondary-color);
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.testimonials-section{
+  background-color: var(--secondary-color);
+  height: 100vh;
+  padding: 50px 0;
+}
+
+.testimonials-title{
+  background-color: var(--primary-color);
+  height: 200px;
+}
+
+.testimonials-box{
+  background-color: var(--primary-color);
+  height: 300px;
+  margin-top: 20px;
+}
+
+.testimonials-dots{
+  background-color: var(--primary-color);
+  height: 50px;
+  margin-top: 20px;
+}
+
+
+.pricing-section{
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding: 50px 0;
+}
+
+.pricing-title{
+  background-color: var(--secondary-color);
+  height: 100px;
+}
+
+.pricing-box{
+  background-color: var(--secondary-color);
+  height: 450px;
+  margin-top: 20px;
+}
+
+
+
+.faq-section{
+  background-color: var(--secondary-color);
+  height: 100vh;
+  padding: 80px 0;
+}
+
+.faq-title{
+  background-color: var(--primary-color);
+  height: 100px;
+}
+
+.faq-content{
+  background-color: var(--primary-color);
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+.team-section{
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding: 80px 0;
+}
+
+.team-title{
+  background-color: var(--secondary-color);
+  height: 100px;
+}
+
+.team-box{
+  background-color: var(--secondary-color);
+  height: 400px;
+  margin-top: 20px;
+}
+
+
+
+
+.contact-section{
+  background-color: var(--secondary-color);
+  height: 100vh;
+  padding: 80px 0;
+}
+
+.contact-title{
+  background-color: var(--primary-color);
+  height: 100px;
+}
+
+.contact-left , .contact-right{
+  background-color: var(--primary-color);
+  height: 400px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact-address , .contact-email-us , .contact-call-us{
+  background-color: var(--secondary-color);
+  height: 150px;
+  margin-top: 20px;
+  
+}
+
+.contact-name , .contact-email , .contact-sub, .contact-send-msg{
+  background-color: var(--secondary-color);
+  height: 50px;
+  margin-top: 20px;
+}
+
+.contact-msg{
+  background-color: var(--secondary-color);
+  height: 110px;
+  margin-top: 20px;
+}
+
+
+.footer-section{
+  background-color: var(--primary-color);
+  height: 400px;
+  padding: 50px 0;
+}
+
+.footer-box{
+  background-color: var(--secondary-color);
+  height: 300px;
+}
+
+.copy-social-section{
+  background-color: var(--secondary-color);
+  height: 100px;
+  padding: 10px 0;
+}
+
+.copy-box , .social-box{
+  background-color: var(--primary-color);
+  height: 80px;
+}
