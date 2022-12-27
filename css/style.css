@@ -21,7 +21,7 @@ header{
   padding: 5px;
 }
 
-.nav-links , .get-started{
+.nav-links , .get-started , .ham-menu{
   background-color: var(--secondary-color);
   height: 40px;
 }
@@ -35,7 +35,6 @@ header{
 
 .banner-content{
   background-color: var(--secondary-color);
-  width: 600px;
   height: 300px;
 }
 
@@ -59,14 +58,19 @@ header{
 
 .about-us-section{
   background-color: var(--primary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 100px 0;
 }
 
+
+
 .about-left , .about-right{
   background-color: var(--secondary-color);
-  height: 400px;
-  
+}
+
+.about-left{
+  background-color: var(--secondary-color);
+  min-height: 400px;
 }
 
 .about-right{
@@ -82,7 +86,7 @@ header{
 
 .dashboard-section{
   background-color: var(--secondary-color);
-  height: 300px;
+  /* height: 300px; */
   padding: 100px 0;
 }
 
@@ -93,7 +97,7 @@ header{
 
 .why-us-section{
   background-color: var(--primary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 80px 0;
 }
 
@@ -146,7 +150,7 @@ header{
 
 .testimonials-section{
   background-color: var(--secondary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 50px 0;
 }
 
@@ -170,7 +174,7 @@ header{
 
 .pricing-section{
   background-color: var(--primary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 50px 0;
 }
 
@@ -181,7 +185,7 @@ header{
 
 .pricing-box{
   background-color: var(--secondary-color);
-  height: 450px;
+  height: 400px;
   margin-top: 20px;
 }
 
@@ -189,7 +193,7 @@ header{
 
 .faq-section{
   background-color: var(--secondary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 80px 0;
 }
 
@@ -207,7 +211,7 @@ header{
 
 .team-section{
   background-color: var(--primary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 80px 0;
 }
 
@@ -218,7 +222,7 @@ header{
 
 .team-box{
   background-color: var(--secondary-color);
-  height: 400px;
+  height: 350px;
   margin-top: 20px;
 }
 
@@ -227,7 +231,7 @@ header{
 
 .contact-section{
   background-color: var(--secondary-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 80px 0;
 }
 
@@ -238,7 +242,7 @@ header{
 
 .contact-left , .contact-right{
   background-color: var(--primary-color);
-  height: 400px;
+  /* height: 400px; */
   padding: 20px;
   margin-top: 20px;
 }
@@ -265,7 +269,7 @@ header{
 
 .footer-section{
   background-color: var(--primary-color);
-  height: 400px;
+  /* height: 400px; */
   padding: 50px 0;
 }
 
@@ -276,11 +280,11 @@ header{
 
 .copy-social-section{
   background-color: var(--secondary-color);
-  height: 100px;
+  /* height: 60px; */
   padding: 10px 0;
 }
 
 .copy-box , .social-box{
   background-color: var(--primary-color);
-  height: 80px;
+  height: 40px;
 }
